@@ -2,10 +2,11 @@ mixin stats(valor,leyenda)
 	.estadistica_elemento
 		h3=valor
 		span=leyenda
-mixin article(categoria,titulo, descripcion)
+mixin article(categoria,titulo, cargo, descripcion)
 	.articulo
 		span.articulo__categoria=categoria
 		h2.articulo__titulo=titulo
+		h2.articulo__titulo=cargo
 		p.articulo__descripcion=descripcion
 doctype html
 html
